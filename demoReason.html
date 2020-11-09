@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Innovation Camp Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her! - Interactive Demo</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="demo.css">
+    <script src="reasonJs.js"></script>
+    <script src="helpJs.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+    <h3 id="back"><a href="index.html">Back to main page</a></h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 id="help" onclick="help('reason')">Help</h3>
+    <br>
+    <br>
+    <br>
+    <div id="helpBlock">
+        <h4 onclick="closeHelp()" id="closeHelp">Close</h4>
+
+    </div>
+
+
+    <h1 id="welcome">Select reason(s)</h1>
+    <div class="background">
+        <div class="column_cards">
+            <div class="row">
+                <div class="columnReason">
+                    <div class="reasonDiv" onclick="clicked(this)">
+                        <h1>Illness</h1>
+                        <img src="illness.png" class="iconImg">
+                    </div>
+                </div>
+
+                <div class="columnReason">
+                    <div class="reasonDiv" onclick="clicked(this)">
+                        <h1>Work</h1>
+                        <img src="work.png" class="iconImg">
+                    </div>
+                </div>
+
+                <div class="columnReason">
+                    <div class="reasonDiv" onclick="clicked(this)">
+                        <h1>Danger</h1>
+                        <img src="danger.png" class="iconImg">
+                    </div>
+                </div>
+                <div class="columnReason">
+                    <div class="reasonDiv" onclick="clicked(this)">
+                        <h1>Childcare</h1>
+                        <img src="childcare.png" class="iconImg">
+                    </div>
+                </div>
+                <div class="columnReason">
+                    <div class="reasonDiv" onclick="clicked(this)">
+                        <h1>Other</h1>
+                        <img src="other.png" class="iconImg">
+                    </div>
+                </div>
+            </div>
+            <a href="demo.html" id="pwBtn2">Complete <img height="40px" src="iconmonstr-arrow-28-240.png" alt=""></a>
+        </div>
+
+
+</div>
+</div>
+</body>
+</html>
