@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 3px;
+    width: 120px;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.innledning {
+    font-size: 25pt;
+    color: white;
+    font-style: italic;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, 100px);
+    grid-auto-columns: minmax(100px, 100px);
+}
+
+.navigationbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 2px black outset;
+}
+
+.navigationbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: larger;
+}
+
+.navigationbar p {
+    text-align: center;
+}
+
+.navigationbar a:hover {
+    background: rgba(3, 3, 129, 0.774);
+    color: white;
+}
+
+.active {
+    background-color: wheat;
+}
+
+
+/*
+  @media screen and (max-width: 500px) {
+    .navigationbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }*/
+
+.background {
+    grid-row: 1/9;
+    grid-column: auto;
+    background-size: contain;
+    background-position: left;
+    background-color: rgba(3, 3, 129, 0.774);
+    ;
+}
+
+#maincontact {
+    margin-top: 100px;
+}
+
+.main {
+    height: 2pt;
+    background-color: darkblue;
+    border-top: 2px black solid;
+    display: table;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+#logo {
+    height: 100px;
+    width: 19vh;
+    padding-bottom: 0vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+}
+
+.footertxt {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 8vw;
+    font-size: 20pt;
+    font-weight: bold;
+    color: black;
+}
+
+.construction {
+    margin: 20rem;
+    font-size: larger;
+}
+
+h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 5rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 1rem;
+    color: rgba(3, 3, 129, 0.774);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#studentdiv {
+    animation: changeBg 10s infinite;
+    width: 100vw;
+    height: 80vh;
+    animation-timing-function: steps(1, end);
+    background-size: 100% 100%;
+    font-size: large;
+}
+
+#studentdiv>* {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#nigeria {
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 400px;
+    left: 750px;
+    width: 80px;
+    border: 0;
+}
+
+#hat {
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 470px;
+    left: 750px;
+    width: 80px;
+    border: 0;
+}
+
+#barn {
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 570px;
+    left: 750px;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+
+#ipad {
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 650px;
+    left: 750px;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
