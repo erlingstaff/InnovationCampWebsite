@@ -140,6 +140,55 @@ a, a:hover, a:focus, a:active {
     border: 1px solid blue;
 }
 
+.navigationbar {
+    overflow: hidden;
+    background-color: rgb(23, 21, 116);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 1px black solid;
+}
+@media (max-width: 420px) {
+    .navigationbar a{
+        width: 30vw;
+        font-size: 12pt !important;
+    }
+}
+@media (max-width: 230px) {
+    .navigationbar a{
+        width: 15vw;
+        font-size: 8pt !important;
+    }
+}
+
+.navigationbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: wheat;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: larger;
+    margin-right: 2vw;
+}
+
+.navigationbar p {
+    text-align: center;
+}
+
+.navigationbar a:hover {
+    background: rgba(230, 226, 5, 0.774);
+    color: white;
+}
+
+.active {
+    border-bottom: red 2px solid;
+}
+
+
 #pwBtn {
     color: black;
     text-align: center;
