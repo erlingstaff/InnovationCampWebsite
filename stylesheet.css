@@ -15,10 +15,12 @@ img {
 
 p.solid {
     border-top: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 40px;
 }
 
 p.innledning {
-    font-size: 25pt;
+    font-size: 20pt;
     color: white;
 }
 .first{
@@ -32,6 +34,7 @@ p.innledning {
     font-size: 16pt;
 }
 #container {
+    /*background-color: blue;*/
     display: grid;
     grid-template-columns: auto;
     grid-auto-rows: minmax(100px, 100px);
@@ -40,7 +43,7 @@ p.innledning {
 
 .navigationbar {
     overflow: hidden;
-    background-color: rgb(23, 21, 116);
+    background-color: rgb(36, 36, 248);
     position: fixed;
     top: 0;
     left: 0;
@@ -75,20 +78,36 @@ p.innledning {
 }
 
 
-/*
-  @media screen and (max-width: 500px) {
-    .navigationbar a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: left;
+
+@media screen and (max-width: 1100px) {
+    .footertxt{
+        font-size: 16pt !important;
     }
-  }*/
+}
+@media screen and (max-width: 902px) {
+    .footertxt{
+        font-size: 14pt !important;
+        margin-left: 3vw !important;
+        margin-right: 3vw !important;
+    }
+}
+@media screen and (max-width: 504px) {
+    .footertxt{
+        font-size: 8pt !important;
+        margin-left: 1.5vw !important;
+        margin-right: 1.5vw !important;
+
+    }
+}
+
 
 .bilde{
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 200px;
     border: none;
+    float: right;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .background {
@@ -105,7 +124,7 @@ p.innledning {
 .main {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    background-color: blue;
+    background-color:rgb(36, 36, 248);
     border-top: 2px black solid;
     text-align: center;
     width: 100%;
@@ -120,10 +139,10 @@ p.innledning {
 }
 
 .footertxt {
-    display: table-cell;
     vertical-align: middle;
-    padding-left: 8vw;
-    font-size: 20pt;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 18pt;
     font-weight: bold;
     color: black;
 }
