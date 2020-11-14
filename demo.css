@@ -62,7 +62,7 @@ body{
 }
 
 .studentDiv{
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0);
     padding: 1.5rem;
