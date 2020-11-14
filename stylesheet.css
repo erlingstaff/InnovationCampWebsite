@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -14,9 +15,11 @@ img {
 }
 
 p.solid {
-    border-top: 1px solid black;
-    padding-top: 25px;
-    padding-bottom: 40px;
+    border-top: 2px dashed rgb(104, 104, 104);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    line-height: 35px;
+    color: white;
 }
 
 p.innledning {
@@ -128,6 +131,7 @@ p.innledning {
     border-top: 2px black solid;
     text-align: center;
     width: 100%;
+    color: white;
 }
 
 #logo {
@@ -144,7 +148,7 @@ p.innledning {
     margin-right: 8vw;
     font-size: 18pt;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .construction {
