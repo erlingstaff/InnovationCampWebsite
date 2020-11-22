@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: rgba(59, 59, 138, 0.774);
+    background-color: lightblue;
     font-family: verdana;
 }
 
@@ -49,7 +49,7 @@ p.innledning {
 
 .navigationbar {
     overflow: hidden;
-    background-color: rgb(59, 59, 138);
+    background-color: rgb(91, 150, 170);
     position: fixed;
     top: 0;
     left: 0;
@@ -129,7 +129,7 @@ p.innledning {
 .main {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    background-color:rgba(59, 59, 138, 0.774);
+    background-color:rgb(91, 150, 170);
     border-top: 2px black solid;
     text-align: center;
     width: 100%;

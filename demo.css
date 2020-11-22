@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: rgba(59, 59, 138, 0.774);
+    background-color: lightblue;
 }
 
 /*Float two and two columns side by side*/
@@ -150,7 +150,7 @@ a, a:hover, a:focus, a:active {
 
 .navigationbar {
     overflow: hidden;
-    background-color: rgb(59, 59, 138);
+    background-color: rgb(91, 150, 170);
     position: fixed;
     top: 0;
     left: 0;
