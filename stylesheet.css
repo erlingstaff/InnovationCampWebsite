@@ -3,38 +3,41 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: rgba(3, 3, 129, 0.774);
+    background-color: rgba(59, 59, 138, 0.774);
     font-family: verdana;
 }
 
 img {
-    border: 1px solid #ddd;
+    border: 2px solid black !important;
+    padding: 10px;
+    margin: 20px;
     border-radius: 2px;
     padding: 3px;
     width: 120px;
 }
 
 p.solid {
-    border-top: 2px dashed rgb(104, 104, 104);
-    padding-top: 80px;
-    padding-bottom: 100px;
-    line-height: 35px;
-    color: white;
+    border-top: 2px dashed rgb(0, 0, 0);
+    padding-top: 140px;
+    padding-bottom: 200px;
+    line-height: 44px;
+    color: black;
+    font-size: 14pt;
 }
 
 p.innledning {
     font-size: 20pt;
-    color: white;
+    color: black;
 }
 .first{
-    margin-bottom: 5%;
+    margin-bottom: 22%;
 }
 #center{
     text-align: center;
     width:100%
 }
 .highlight{
-    font-size: 16pt;
+    font-size: 20pt;
 }
 #container {
     /*background-color: blue;*/
@@ -46,7 +49,7 @@ p.innledning {
 
 .navigationbar {
     overflow: hidden;
-    background-color: rgb(36, 36, 248);
+    background-color: rgb(59, 59, 138);
     position: fixed;
     top: 0;
     left: 0;
@@ -73,7 +76,7 @@ p.innledning {
 
 .navigationbar a:hover {
     background: rgba(230, 226, 5, 0.774);
-    color: white;
+    color: b;
 }
 
 .active {
@@ -105,9 +108,8 @@ p.innledning {
 
 
 .bilde{
-    height: 100px;
-    width: 200px;
-    border: none;
+    height: 200px;
+    width: 300px;
     float: right;
     padding-top: 0px;
     margin-top: 0px;
@@ -127,11 +129,11 @@ p.innledning {
 .main {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    background-color:rgb(36, 36, 248);
+    background-color:rgba(59, 59, 138, 0.774);
     border-top: 2px black solid;
     text-align: center;
     width: 100%;
-    color: white;
+    color: black;
 }
 
 #logo {
@@ -148,7 +150,7 @@ p.innledning {
     margin-right: 8vw;
     font-size: 18pt;
     font-weight: bold;
-    color: white;
+    color: b;
 }
 
 .construction {
@@ -160,7 +162,9 @@ h2 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 5rem;
     margin-top: 2rem;
-    color: black;
+    color: orangered;
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 h3 {
